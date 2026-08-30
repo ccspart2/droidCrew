@@ -1,0 +1,22 @@
+{
+  "name": "droidcrew",
+  "displayName": "droidCrew",
+  "version": "1.0.0",
+  "description": "A four-agent crew for native Android development: Designer, Orchestrator, Coder and QA, from design to implementation to review.",
+  "author": {
+    "name": "Charlie Castro",
+    "email": "ccspart2@gmail.com"
+  },
+  "homepage": "https://github.com/ccspart2/droidCrew",
+  "repository": "https://github.com/ccspart2/droidCrew",
+  "license": "MIT",
+  "keywords": [
+    "android",
+    "kotlin",
+    "compose",
+    "material3",
+    "agents",
+    "qa",
+    "design"
+  ]
+}

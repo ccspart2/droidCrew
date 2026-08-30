@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "models": { "orchestrator": "opus", "designer": "opus", "coder": "sonnet", "qa": "opus" },
+  "designer": { "mode": "operate" },
+  "backlog": { "source": "file" },
+  "mcp": { "claudeDesign": "unknown" },
+  "stack": { "ui": "compose", "language": "kotlin", "di": "hilt", "buildModule": ":app" },
+  "verification": {
+    "build": "./gradlew :app:assembleDebug --rerun-tasks",
+    "test": "./gradlew :app:testDebugUnitTest --rerun-tasks",
+    "testResults": "app/build/test-results/testDebugUnitTest"
+  },
+  "guard": { "enabled": true, "sourceGlobs": ["**/src/**", "**/*.kt", "**/*.kts", "**/*.gradle", "**/AndroidManifest.xml", "gradle/**"] }
+}

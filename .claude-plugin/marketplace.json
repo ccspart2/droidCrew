@@ -1,0 +1,16 @@
+{
+  "name": "droidcrew",
+  "description": "droidCrew \u2014 a four-agent crew for native Android development.",
+  "owner": {
+    "name": "Charlie Castro",
+    "email": "ccspart2@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "droidcrew",
+      "source": "./",
+      "description": "A four-agent crew for native Android development: Designer, Orchestrator, Coder and QA.",
+      "version": "1.0.0"
+    }
+  ]
+}

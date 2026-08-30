@@ -1,0 +1,16 @@
+{
+  "description": "droidCrew write guard: only the code stage may modify application source.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/write-guard.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
